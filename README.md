@@ -1,3 +1,4 @@
-# template-2
+prdxn-dev-framework
+===================
 
-purple template
+PRDXN's "starting package" used for development.
