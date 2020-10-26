@@ -163,7 +163,14 @@ header {
 .manager-desc h2 {
   text-transform: capitalize;
 }
-
+.green-link {
+  text-transform: uppercase;
+  background-color: #44C79D;
+  color: white;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  padding: 10px;
+}
 
 
 /*=================================
