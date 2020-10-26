@@ -103,6 +103,12 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
+
+/* General styles */
+.purple-text {
+  color: #6069D0;
+}
+
 /*=================================
   Header styling starts here
 =================================*/
@@ -118,7 +124,7 @@ li {
 }
 header h1 {
   text-transform: uppercase;
-  color: #6069D0;
+ 
   font-weight: 600;
   font-size: 30px;
   margin-top: 20px;
@@ -139,10 +145,24 @@ header {
   main styling starts here
 =================================*/
 
+/* Manager */
 
+.manager-inner {
+  display: flex;
+}
+.manager-desc{
+  flex-basis: 65%;
+}
+.referrals {
+  /* float: right; */
+  flex-basis: 35%;
+  background-color: #6069D0;
+  color: white;
+}
 
-
-
+.manager-desc h2 {
+  text-transform: capitalize;
+}
 
 
 
