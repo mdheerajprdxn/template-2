@@ -107,8 +107,27 @@ li {
   Header styling starts here
 =================================*/
 
+.header-inner img {
+  height: 70px;
+  width: auto;
+}
 
+.header-inner {
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  text-transform: uppercase;
+  color: #6069D0;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 20px;
+}
 
+header {
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
 
 
 
