@@ -323,6 +323,36 @@ text-align: center;
   font-size: 1.3rem;
   
 }
+
+/* testimonials */
+.testimonial {
+  background-color: #6069D0;
+  color: #fff;
+  padding: 3rem 0;
+  margin-top: 3rem;
+}
+.testimonial .header-inverse h2 {
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.testimonial span.fa {
+  flex-basis: 5%;
+}
+
+.testimonial p {
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+.testimonial span.fa:before {
+  font-size: 3rem;
+}
+
 /*=================================
   main styling ends here
 =================================*/
