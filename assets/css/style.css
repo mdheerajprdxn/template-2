@@ -137,7 +137,7 @@ header h1 {
 
 header {
   padding: 20px 0;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 2px solid #aaa;
 }
 
 
@@ -152,7 +152,7 @@ header {
 
 /* Manager */
 .manager {
-  border-bottom: 1px solid #aaa;
+  border-bottom: 2px solid #aaa;
 }
 .manager-inner {
   display: flex;
@@ -237,6 +237,11 @@ text-align: center;
 }
 
 /* insiders */
+
+.insiders {
+  border-bottom: 2px solid #aaa;
+}
+
 .profiles {
   display: flex;
   justify-content: space-between;
@@ -278,6 +283,46 @@ text-align: center;
   font-size: 0.9rem;
 }
 
+/* how it works */
+.how-it-works-content ul  {
+  display: flex;
+  justify-content: space-around;
+}
+.how-it-works-content ul  li{
+  display: flex;
+flex-flow: column;
+align-items: center;
+flex-basis: 25%;
+color: #777;
+text-align: center;
+}
+
+.how-it-works-content ul li span.fa{
+  /* height: 20px; */
+  /* width: 20px; */
+  /* padding: 10px; */
+  margin: 40px 0;
+}
+.how-it-works-content ul li span.fa::before {
+  font-size: 2rem;
+  color: white;
+  background-color: #6069D0;
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.how-it-works-content ul li span:nth-child(2) {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.how-it-works-content ul li p {
+  font-size: 1.3rem;
+  
+}
 /*=================================
   main styling ends here
 =================================*/
