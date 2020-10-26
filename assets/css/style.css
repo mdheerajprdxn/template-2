@@ -153,12 +153,6 @@ header {
 .manager-desc{
   flex-basis: 65%;
 }
-.referrals {
-  /* float: right; */
-  flex-basis: 35%;
-  background-color: #6069D0;
-  color: white;
-}
 
 .manager-desc h2 {
   text-transform: capitalize;
@@ -170,6 +164,35 @@ header {
   border-radius: 3px;
   font-size: 1.3rem;
   padding: 10px;
+  margin-right: 20px;
+}
+.manager-inner-heading,
+.manager-inner-subheading {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+.manager-inner-heading h2{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.manager-desc p {
+  font-size: 1.3rem;
+  color:#777;
+  margin: 20px 0;
+}
+
+/* referrals */
+
+.referrals {
+  /* float: right; */
+  flex-basis: 35%;
+  background-color: #6069D0;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
