@@ -124,15 +124,15 @@ li {
 }
 header h1 {
   text-transform: uppercase;
- 
+ letter-spacing: 2px;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 20px;
 }
 
 header {
   padding: 20px 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #aaa;
 }
 
 
@@ -146,25 +146,18 @@ header {
 =================================*/
 
 /* Manager */
-
+.manager {
+  border-bottom: 1px solid #aaa;
+}
 .manager-inner {
   display: flex;
 }
 .manager-desc{
-  flex-basis: 65%;
+  flex-basis: 70%;
 }
 
 .manager-desc h2 {
   text-transform: capitalize;
-}
-.green-link {
-  text-transform: uppercase;
-  background-color: #44C79D;
-  color: white;
-  border-radius: 3px;
-  font-size: 1.3rem;
-  padding: 10px;
-  margin-right: 20px;
 }
 .manager-inner-heading,
 .manager-inner-subheading {
@@ -182,20 +175,63 @@ header {
   margin: 20px 0;
 }
 
+.green-link {
+  text-transform: uppercase;
+  background-color: #44C79D;
+  color: white;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  padding: 15px 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+
+}
+
 /* referrals */
 
 .referrals {
   /* float: right; */
-  flex-basis: 35%;
+  flex-basis: 30%;
+  padding: 60px 0;
   background-color: #6069D0;
   color: white;
   display: flex;
   flex-flow: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
+.referrals span {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
 
+.referrals .percentage {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.line-through {
+border-bottom: 1px solid white;
+line-height: 0.1em;
+width: 60%;
+text-align: center;
+}
+.line-through-inner {
+  padding: 10px;
+  background-color: #6069D0;
+}
+.referrals ul li {
+  margin: 1rem 5px 1.2rem 5px;
+}
+
+.referrals .fa-male:before {
+  font-size: 1.3rem;
+}
+
+.referrals .transparent-icon:before {
+  color: rgba(255, 255, 255, 0.5);
+}
 /*=================================
   main styling ends here
 =================================*/
