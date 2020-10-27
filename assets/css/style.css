@@ -156,9 +156,11 @@ header {
 }
 .manager-inner {
   display: flex;
+  align-items: center;
 }
 .manager-desc{
   flex-basis: 70%;
+
 }
 
 .manager-inner-heading span {
@@ -187,15 +189,21 @@ header {
   padding: 15px 20px;
   margin-right: 20px;
   margin-bottom: 30px;
-
+  transition: all 0.3s ease;
 }
 
+.green-link:hover {
+  box-shadow: 2px 2px 5px #555;
+}
+.manager-desc .green-text {
+  color: #44C79D;
+}
 /* referrals */
 
 .referrals {
   /* float: right; */
   flex-basis: 30%;
-  padding: 60px 0;
+  padding: 100px 0;
   background-color: #6069D0;
   color: white;
   display: flex;
@@ -207,6 +215,7 @@ header {
 .referrals span {
   font-size: 1.3rem;
   font-weight: 400;
+  padding: 5px 0;
 }
 
 .referrals .percentage {
