@@ -279,13 +279,14 @@ margin: 10px 0;
 .profiles {
   display: flex;
   justify-content: space-between;
+ 
 }
 .profile {
   margin: 1rem;
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   flex-basis: 25%;
   color: #555;
   text-align: center;
@@ -416,19 +417,57 @@ text-align: center;
 =================================*/ 
 
 
-
-
-
-
-
  /*=================================
   footer styling ends here
 =================================*/ 
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 768px) {
 
+.manager-inner {
+  flex-wrap: wrap;
+}
 
+.manager-desc{
+  flex-basis: 100%;
+}
+
+.profile{
+  padding: 0;
+}
+.referrals {
+  flex-basis: 100%;
+}
 
 }  
+
+
+@media only screen and (max-width: 520px) {
+  .profiles {
+    flex-wrap: wrap;
+  }
+.profile{
+  flex-basis: 100%;
+}
+.profile img{
+  width: 70%;
+}
+.how-it-works-content ul {
+  flex-wrap: wrap;
+}
+
+.how-it-works-content ul li {
+  flex-basis: 100%;
+}
+.testimonials {
+  align-items: center;
+}
+.testimonial span.fa:before {
+  font-size: 1rem;
+}
+.testimonial p {
+  font-size: 1rem;
+}
+
+}
